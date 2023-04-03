@@ -1,0 +1,20 @@
+{
+    "name": "fw/mvc",
+    "authors": [
+        {
+            "name": "Nguyen Van A"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "System\\Src\\": "systems/src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.7",
+        "symfony/cache": "^5.4",
+        "firebase/php-jwt": "^6.4"
+    }
+}
